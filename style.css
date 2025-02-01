@@ -97,4 +97,8 @@ ul li a {
     max-width: 384px;
     padding: 2.5rem;
   }
+
+  ul {
+    width: 304px;
+  }
 }
