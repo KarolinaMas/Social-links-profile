@@ -1,0 +1,99 @@
+/* general style */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #141414;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  color: white;
+  font-family: "Inter", serif;
+}
+
+h1,
+p,
+ul {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.info-container,
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* main container */
+
+main {
+  background-color: #1f1f1f;
+  font-size: 0.875rem;
+  max-width: 327px;
+  padding: 1.5rem;
+  border-radius: 12px;
+}
+
+/* info container */
+
+.info-container {
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+img {
+  width: 88px;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 0.625rem;
+}
+
+.subheading {
+  font-weight: 700;
+  color: #c4f82a;
+}
+
+/* link list */
+
+ul {
+  gap: 1rem;
+  font-weight: 700;
+}
+
+ul li {
+  background-color: #333333;
+  width: 100%;
+  text-align: center;
+  padding: 0.875rem 0;
+  border-radius: 8px;
+  transition: color 0.5s, background-color 0.5s ease-in;
+}
+
+ul li:hover {
+  color: #1f1f1f;
+  background-color: #c4f82a;
+}
+
+ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* media queries */
+
+@media (min-width: 560px) {
+  main {
+    max-width: 384px;
+    padding: 2.5rem;
+  }
+}
